@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",
+    "target": "ESNext",
+    "moduleResolution": "nodenext"
+  },
+  "include": ["./*.mts"],
+  "ts-node": {
+    "swc": true
+  },
+  "references": [
+    {
+      "path": "./packages/core"
+    },
+    {
+      "path": "./packages/node"
+    }
+    // {
+    //   "path": "./packages/app"
+    // }
+  ]
+}
